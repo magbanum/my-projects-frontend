@@ -8,15 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Shantanu Nighot">
     <title>Random quote generator</title>
-    <link rel="icon" type="image/png">
-    <meta name="description" content="Hi, I'm Shantanu Nighot and this is my personal website created by me where you can find my previous works, projects I'm working on and services I provide. 
-    Also I post blogs related to technology an education, so don't forget to give a visit and sign up for updates.">
+    <meta name="description" content="Hi, this is my first django project.">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <style>
 
-    </style>
 </head>
 
 <body>
@@ -24,18 +20,40 @@
 of Simple CSS Waves-->
 
     <div class="header">
+        <!-- Trigger/Open The Modal -->
+        <button id="myBtn">Contribute</button>
+        <div></div>
+        <div id="myModal" class="modal-form">
+            <form action="#" class="form" method="POST">
 
+                <h2>Add quotes</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name">
+                <label for="quote">Quote:</label>
+                <input type="text" id="quote">
+                <label for="author">Author</label>
+                <input type="text" id="author">
+                <label for="email">Email:</label>
+                <input type="text" id="email">
+
+                <button type="submit">Submit</button>
+                <div>
+
+                    nighotshantanu@gmail.com
+                </div>
+            </form>
+        </div>
         <!--Content before waves-->
         <div class="inner-header flex">
             <!--Just the logo.. Don't mind this-->
 
-            <h1 class="effect-shine">I can, I will, End of the story. sbuyg i wgacuy fwua ye ayg ufgu weufyg u</h1>
+            <h1 class="effect-shine">Religion, ideology, resources, land, spite, love or just because… No matter how pathetic the reason, it’s enough to start war.</h1>
 
         </div>
 
         <!--Waves Container-->
         <div>
-            <h4> - Shantanu</h4>
+            <h4>Anonymous</h4>
             <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
     <defs>
     <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
@@ -53,7 +71,7 @@ of Simple CSS Waves-->
     </div>
     <!--Header ends-->
 
-
+    <script src="script.js"></script>
 </body>
 
 </html>
